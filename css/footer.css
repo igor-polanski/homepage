@@ -1,0 +1,19 @@
+.footer {
+	background-color: #4267b2;
+	color: #88cae6;
+	text-align: center;
+	margin: 0 -20px;
+}
+
+.footer__link {
+	color: #88cae6;
+	text-decoration: underline;
+}
+
+.footer__link:hover {
+	color: hsl(198, 65%, 90%);
+}
+
+.footer__link:active {
+	color: hsl(198, 65%, 45%);
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Polanski - self taught Frontend developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="container">
+        <nav>
+            <ul class="navigation">
+                <li class="navigation__item"><a href="#about-me" class="navigation__link">About Me</a></li>
+                <li class="navigation__item"><a href="#table-example" class="navigation__link">Spending Table</a></li>
+                <li class="navigation__item"><a href="#js-Interaction" class="navigation__link">JS Interaction</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <header class="section section--centered">
+                <img class="section__image" src="images/IgorPolanski.jpg" alt="A picture of Igor Polanski in London"
+                    width="200" height="200">
+                <h1 class="section__header">Igor Polanski</h1>
+            </header>
+
+            <section class="section" id="about-me">
+                <h2 class="section__subHeading">A few words about me</h2>
+                <p class="section__paragraph">Hi! I am an <strong>aspiring</strong> Frontend developer currently living
+                    in
+                    Poland. I follow all web
+                    development
+                    trends
+                    daily and I try to create web applications with accessibility, SEO, performance and style.</p>
+
+                <p class="section__paragraph"><a href="https://github.com/igor-polanski/" class="section__button"
+                        target="_blank" rel="noreferrer noopener">Check out my GitHub!</a></p>
+
+                <h2 class="section__subHeading">Hobbies?</h2>
+                <p class="section__paragraph"><em>Learning about new things, solving problems, reaching goals and
+                        improving
+                        myself as a
+                        person.</em>&#x270C;
+                    In terms of general hobbies I really like the gym, new technologies, gadgets and travelling.</p>
+            </section>
+
+            <section class="section" id="table-example">
+                <h2 class="section__subHeading">Spending Table</h2>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">How I chose to spend my money</caption>
+                        <thead>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="col">Purchase</th>
+                                <th class="table__cell table__cell--header" scope="col">Location</th>
+                                <th class="table__cell table__cell--header" scope="col">Date</th>
+                                <th class="table__cell table__cell--header" scope="col">Evaluation</th>
+                                <th class="table__cell table__cell--header" scope="col">Cost (PLN)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Haircut</th>
+                                <td class="table__cell">Hairdresser</td>
+                                <td class="table__cell">5/06/2020</td>
+                                <td class="table__cell">Great idea</td>
+                                <td class="table__cell">50</td>
+                            </tr>
+
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Pad-thai</th>
+                                <td class="table__cell">Restaurant</td>
+                                <td class="table__cell">3/06/2020</td>
+                                <td class="table__cell">Good</td>
+                                <td class="table__cell">30</td>
+                            </tr>
+
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Pavlova</th>
+                                <td class="table__cell">Bakery</td>
+                                <td class="table__cell">4/06/2020</td>
+                                <td class="table__cell">Regrets</td>
+                                <td class="table__cell">12</td>
+                            </tr>
+
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Strawberries</th>
+                                <td class="table__cell">Supermarket</td>
+                                <td class="table__cell">2/06/2020</td>
+                                <td class="table__cell">Great idea</td>
+                                <td class="table__cell">10</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row" colspan="4">SUM</th>
+                                <td class="table__cell">102</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+
+            <section class="section" id="js-Interaction">
+                <h2 class="section__subHeading">An example of JS interaction</h2>
+                <p class="section__paragraph">
+                    <button class="section__button js-themeChange">Dark theme</button>
+                </p>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <p>&copy; Copyright All rights reserved 2020.</p>
+            <p>
+                Coded with
+                <span aria-label="love">&#10084;&#65039;</span> by
+                <a href="https://github.com/igor-polanski/" title="Link to my Github (inc soon)" target="_blank"
+                    rel="noreferrer noopener" class="footer__link">Igor
+                    Polanski.</a>
+            </p>
+            <p>Thank you for visiting my page.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
