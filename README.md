@@ -12,17 +12,16 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Roadmap](#roadmap)
+* [Status](#status)
 * [Contact](#contact)
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![homepage.gif](https://s7.gifyu.com/images/homepage.gif)](https://gifyu.com/image/uJOn)
@@ -37,13 +36,14 @@ This project displays my first ever usage of HTML, CSS and JavaScript. Homepage 
 * [JavaScript](https://github.com/igor-polanski/homepage/blob/master/js/script.js)
 
 
-<!-- ROADMAP -->
 ## Roadmap
 
 This site is going to be transformed into an online version of my CV.
 
+## Status
 
-<!-- CONTACT -->
+WIP.
+
 ## Contact
 
 Igor Polanski - igorpolanski@gmail.com
